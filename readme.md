@@ -20,3 +20,9 @@ $ hexo generate --deploy
 $ hexo deploy --generate
 
 ```
+
+本地查看调试
+$ hexo g #生成
+$ hexo s #启动本地服务，进行文章预览调试
+或者直接作用组合命令
+$ hexo d -g

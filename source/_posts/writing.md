@@ -5,7 +5,11 @@ tags:
   - help
 categories:
   - help
+photos:
+  - http://zanjs.b0.upaiyun.com/image/9/13/5a67e2c2b32a76fd89d4fa8fdc4f6.gif
 ---
+
+
 
 # 写作
 
@@ -23,6 +27,7 @@ $ hexo new [layout] <title>
 Hexo 有三种默认布局：post、page 和 draft，它们分别对应不同的路径，
 而您自定义的其他布局和 post 相同，都将储存到 `source/_posts` 文件夹。
 
+<!--more-->
 
 | 布局          | 路径           |
 | ------------- |:-------------:|
