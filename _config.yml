@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一点心怡
-subtitle: 精于心, 简于形, 一种新的写作方式
+title: 一点心怡 | 前端娃
+subtitle: 精于心, 简于形, 说前端, 一种新的写作方式
 description: 一米阳光下，一本书，一个人，思念昉~
 author: Julaud
 language: zh-Hans
@@ -74,3 +74,41 @@ deploy:
   repo: https://github.com/zanjs/zanjs.github.io.git
   # 分支名称。
   branch: master
+
+
+# Minifier
+# Note: can wrap a chunk in:
+# <!-- htmlmin:ignore -->
+# to have the minifier ignore a section
+html_minifier:
+  exclude:
+  removeComments: true
+  removeCommentsFromCDATA: true
+  removeCDATASectionsFromCDATA: true
+  collapseWhitespace: true
+  conservativeCollapse: true
+  preserveLineBreaks: true
+  collapseBooleanAttributes: true
+  removeAttributeQuotes: false
+  removeRedundantAttributes: true
+  preventAttributesEscaping: false
+  useShortDoctype: false
+  removeEmptyAttributes: true
+  removeScriptTypeAttributes: false
+  removeStyleLinkTypeAttributes: false
+  removeOptionalTags: false
+  removeIgnored: true
+  removeEmptyElements: false # This appears to break if set to true
+  lint: false
+  keepClosingSlash: false
+  caseSensitive: false
+  minifyJS: true
+  minifyCSS: true
+  minifyURLs: false
+  #ignoreCustomComments
+  #processScripts
+  #maxLineLength
+  #customAttrAssign
+  #customAttrSurround
+  #customAttrCollapse
+  #quoteCharacter
