@@ -47,6 +47,10 @@ Or, if you don't want/need launchctl, you can just run:
 julauddeMacBook-Pro:/ julaud$ mongod --config /usr/local/etc/mongod.conf
 ```
 
+运行mongodb执行 mongod命令就可以
+mongod --dbpath=/data/db
+
+
 ## 连接MongoDb
 
 ```
