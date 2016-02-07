@@ -85,7 +85,7 @@ categories:
 
 
 
->打开命令行，angular2-quickstart目录下输入npm install，然后等着就行了（此步骤如果失败可能需要翻墙）。
+>打开命令行，angular2-quickstart目录下输入 `npm install`，然后等着就行了（此步骤如果失败可能需要翻墙）。
 
 
 #### 配置Typescript（以下简称ts）
@@ -96,7 +96,7 @@ categories:
 不仅包含五分钟上手教程，还包含了后面比较复杂的教程）。好消息是这个语言看着比js还要简洁，而且很容易上手。
 
 好，那么配置他也是很简单的事情，你需要做的事情和(2)是类似的，
-首先在angular2-quickstart文件夹里建一个文件叫tsconfig.json，并复制以下内容到tsconfig.json里就可以了。
+首先在angular2-quickstart文件夹里建一个文件叫 `tsconfig.json`，并复制以下内容到 `tsconfig.json`里就可以了。
 
 
 ```
@@ -214,7 +214,7 @@ bootstrap(AppComponent);
 
 
 我们可以看出来，这个index.html分为三块。第一块引入了必要的js文件，他们都存在npm下载好的目录下。
-第二块配置了SystemJS，并在里面import了我们刚才写好的 `main.ts`，`main.ts`里提供了代码的入口即`bootstrap`。
+第二块配置了 `SystemJS`，并在里面 `import` 了我们刚才写好的 `main.ts`，`main.ts`里提供了代码的入口即`bootstrap`。
 第三块就是显示出来我们最开始写的app.component.ts，你应该还有印象，在 `app.component.ts` 的代码里有一句是 `selector: 'my-app'`，
 所以在html里这个组件就用 `<my-app></my-app>`表示，
 这个标签显示的内容就是  ` template: '<h1>My First Angular 2 App</h1>' ` 中的  `<h1>My First Angular 2 App</h1>'`，
@@ -223,6 +223,6 @@ bootstrap(AppComponent);
 
 ### 第四步：编译运行
 
-很简单就一步，angular2-quickstart目录下在命令行里输入npm start，之后不要关闭命令行，等待一会儿会有个网页自动打开就可以看到结果了。
+很简单就一步，`angular2-quickstart` 目录下在命令行里输入 `npm start`，之后不要关闭命令行，等待一会儿会有个网页自动打开就可以看到结果了。
 
 
