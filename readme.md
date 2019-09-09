@@ -1,5 +1,7 @@
 ## 生成文件
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/zanjs-com-note.svg)](https://greenkeeper.io/)
+
 使用 Hexo 生成静态文件快速而且简单。
 ```
 $ hexo generate
